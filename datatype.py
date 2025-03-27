@@ -1,8 +1,6 @@
 a = str("Hello");
 print("String Data type =>", a)
 
-b = int(5);
-print("int Data type =>", b)
 
 c = float(6)
 print("float Data type =>", c)
@@ -28,5 +26,12 @@ print("Range Data type =>", g)
 print("Range Data type =>", g1)
 
 
-h = {"name": "Mrinal", "isGood" : True}
+h = {"name": "Mrinal", "isGood" : True} # map or dictionary types
 print("Dict Data type =>",h)
+
+i =  {1,2,3,4,5,4,3,2,1}  # unique values
+print("SET Data type =>",i);
+
+j = frozenset({"apple", "banana", "cherry"}) # Can not be updated
+print("Frozen SET Data type =>",j);
+
