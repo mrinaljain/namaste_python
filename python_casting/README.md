@@ -16,3 +16,8 @@
    - 1 => true
    - "" => false
    - "some" =>true
+
+
+
+
+## many more typecasting todo
