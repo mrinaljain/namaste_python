@@ -59,3 +59,47 @@ print(thislist)
 thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.reverse()
 print(thislist)
+
+
+# 8 Copy list [shalow copy] [only works on lists]
+
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)\
+ # 8.1 Another way to make a copy is to use the built-in method list().
+thislist = ["apple", "banana", "cherry"]
+mylist = list(thislist) # works on all iterables
+print(mylist)
+
+# 8.2 You can also make a copy of a list by using the : (slice) operator.
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist[:] # empty slice just like array in JS
+print(mylist)
+
+
+# 9 Join list 
+# 9.1  Direct Adition
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+
+#9.2 Append 
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+for x in list2:
+  list1.append(x)
+
+print(list1)
+
+# 9.3 Extend
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+
+print(list1)
+
