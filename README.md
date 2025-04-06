@@ -1,6 +1,6 @@
 # Python
 
-
+- Python is an object oriented programming language.
 - indentation is very important
 - interpreted language
 - Python has no command for declaring a VARIABLE.
