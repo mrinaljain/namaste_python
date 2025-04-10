@@ -50,3 +50,7 @@
 
 
 ## Basic inbuilt methods 
+
+
+## TODO
+- iterators
